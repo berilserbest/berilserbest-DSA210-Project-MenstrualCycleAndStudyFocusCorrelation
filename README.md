@@ -5,8 +5,6 @@
 - [Motivation](#motivation)
 - [Data Sources and Dataset Description](#data-sources-and-dataset-description)
 - [Data Collection and Preprocessing](#data-collection-and-preprocessing)
-- [Analysis Plan](#analysis-plan)
-- [Tools and Technologies](#tools-and-technologies)
 
 # Project Overview
 I am Beril Nur Serbest, a Computer Science and Engineering student in Sabancı University. I am conducting this project as a part of DSA210 couse. This study focuses on examining how different phases of menstrual cycle influence study focus among female students in Turkey. By analyzing self tracked data collected with Google Forms, this study aims to uncover patterns in cognitive focus and learning efficiency accross different menstrual phases.
