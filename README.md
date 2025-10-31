@@ -29,7 +29,7 @@ This project relies on self-collected data from female students in Turkey. The G
 
 # Data Collection and Preprocessing 
 ## Data Collection:
-Participants will record their daily study hours, focus levels, coffee consumption, painkiller usage, and menstrual cycle dates through Google Forms. Data will be collected for at least one full menstrual cycle per participant (ideally 4–6 weeks). Additional context variables such as exam period and age will also be recorded to ensure that the study focus is mostly related with the menstrual cycyle and no other thing. 
+Participants will record their daily study hours, focus levels, coffee consumption, painkiller usage, and menstrual cycle dates through Google Forms. Data will be collected for at least one full menstrual cycle per participant (ideally 4–6 weeks). The exam period and coffe consumption information will also be recorded to ensure that the study focus is mostly related with the menstrual cycyle and no other factors. The age information is to verify the participant have the menstrual cycle or not to increase the reliance. 
 
 ## Data Preprocessing: 
 - Data Cleaning: Handle missing or inconsistent entries, standardize date formats, and correct typos.
