@@ -29,11 +29,11 @@ This project relies on self-collected data from female students in Turkey. The G
 
 # Data Collection and Preprocessing 
 ## Data Collection:
-Participants will record their daily study hours, focus levels, coffee consumption, painkiller usage, and menstrual cycle dates through Google Forms. Data will be collected for at least one full menstrual cycle per participant (ideally 4–6 weeks). The exam period and coffe consumption information will also be recorded to ensure that the study focus is mostly related with the menstrual cycyle and no other factors. The age information is to verify the participant have the menstrual cycle or not to increase the reliance. 
+Participants will record their daily study hours, focus levels, coffee consumption, painkiller usage, and menstrual cycle dates through Google Forms. Data will be collected for at least one full menstrual cycle per participant (ideally 4–6 weeks). The exam period, coffe consumption and painkiller usage  information will also be recorded to ensure that the study focus is mostly related with the menstrual cycyle and no other factors. The age information is to verify the participant have the menstrual cycle or not to increase the reliance. 
 
 ## Data Preprocessing: 
-- Data Cleaning: Handle missing or inconsistent entries, standardize date formats, and correct typos.
-- Calculation and Categorization: Calculating average menstrual period length (period_length) based on cycle_start and cycle_end and categorizing each day into menstrual phase (Menstrual / Follicular / Ovulatory / Luteal) using the cycle data. Converting boolean variables (painkiller_usage, exam_period, coffee_consumption) into numerical format (e.g., 0 = No, 1 = Yes).
+- Data Cleaning: Handling missing or inconsistent data, such as blanks or extreme entries. Standardize date formats, and correct typos.
+- Calculations and Convertions : Calculating average menstrual period lengt based on cycle_start and cycle_end. Converting boolean variables (painkiller_usage, exam_period, coffee_consumption) into numerical format (e.g., 0 = No, 1 = Yes).
 - Mergin Data: Combine all clean participant given data and calculated data into one SQL based database and create the dataset. 
 
 
