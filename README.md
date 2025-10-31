@@ -3,8 +3,7 @@
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Motivation](#motivation)
-- [Data Sources](#data-sources)
-- [Dataset Description](#dataset-description) 
+- [Data Sources and Dataset Description](#data-sources-and-dataset-description)
 - [Data Collection and Preprocessing](#data-collection-and-preprocessing)
 - [Analysis Plan](#analysis-plan)
 - [Tools and Technologies](#tools-and-technologies)
@@ -34,6 +33,9 @@ This project relies on self-collected data from female students in Turkey. The G
 - exam_period : the data indicating wheter is it the exam period or not
 - coffee_consumption : the data indicating wheter the participant consumes coffe during the menstrual cycle period.
 
+# Data Collection and Preprocessing 
+- Data Collection:
+Participants will record their daily study hours, focus levels, coffee consumption, painkiller usage, and menstrual cycle dates through Google Forms. Data will be collected for at least one full menstrual cycle per participant (ideally 4–6 weeks). Additional context variables such as exam period and age will also be recorded to ensure that the study focus is mostly related with the menstrual cycyle and no other thing. 
   
 
 
