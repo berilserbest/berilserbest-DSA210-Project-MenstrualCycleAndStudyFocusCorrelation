@@ -3,10 +3,9 @@
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Motivation](#motivation)
-- [Research Question](#research-question)
-- [Objectives](#objectives)
 - [Hypotheses](#hypotheses)
 - [Data Sources](#data-sources)
+- [Dataset Description](#dataset-description) 
 - [Data Collection and Preprocessing](#data-collection-and-preprocessing)
 - [Analysis Plan](#analysis-plan)
 - [Tools and Technologies](#tools-and-technologies)
@@ -14,6 +13,8 @@
 - [Expected Findings](#expected-findings)
 - [Limitations](#limitations)
 - [Future Work](#future-work)
-- [Conclusion](#conclusion)
-- [Disclaimer](#disclaimer)
+
+  # Project Overview
+  
+
 
