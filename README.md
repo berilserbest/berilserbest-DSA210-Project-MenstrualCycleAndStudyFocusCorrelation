@@ -15,7 +15,7 @@
 - [Future Work](#future-work)
 
 # Project Overview
-##bb
+I am Beril Nur Serbest, a Computer Science and Engineering student in Sabancı University. I am conducting this project as a part of DSA210 couse. This study focuses on examining how different phases of menstrual cycle influence study focus among female students in Turkey.
   
 
 
