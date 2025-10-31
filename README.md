@@ -34,8 +34,8 @@ This project relies on self-collected data from female students in Turkey. The G
 Participants will record their daily study hours, focus levels, coffee consumption, painkiller usage, and menstrual cycle dates through Google Forms. Data will be collected for at least one full menstrual cycle per participant (ideally 4–6 weeks). Additional context variables such as exam period and age will also be recorded to ensure that the study focus is mostly related with the menstrual cycyle and no other thing. 
 
 ## Data Preprocessing: 
-- Data Cleaning: Handle missing or inconsistent entries, standardize date formats, and correct typos.
-- Calculation and Categorization: Calculating average menstrual period length (period_length) based on cycle_start and cycle_end and categorizing each day into menstrual phase (Menstrual / Follicular / Ovulatory / Luteal) using the cycle data. Converting boolean variables (painkiller_usage, exam_period, coffee_consumption) into numerical format (e.g., 0 = No, 1 = Yes).
-- Mergin Data: Combine all clean participant given data and calculated data into one SQL based database and create the dataset. 
+### Data Cleaning: Handle missing or inconsistent entries, standardize date formats, and correct typos.
+### Calculation and Categorization: Calculating average menstrual period length (period_length) based on cycle_start and cycle_end and categorizing each day into menstrual phase (Menstrual / Follicular / Ovulatory / Luteal) using the cycle data. Converting boolean variables (painkiller_usage, exam_period, coffee_consumption) into numerical format (e.g., 0 = No, 1 = Yes).
+### Mergin Data: Combine all clean participant given data and calculated data into one SQL based database and create the dataset. 
 
 
