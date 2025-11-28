@@ -17,19 +17,17 @@ Menstrual cycle periods can effect physical activity levels, mood and cognitive 
 
 # Data Sources and Dataset Description
 This project relies on self-collected data from female students in Turkey. The Google Forms used to colect the related data. The dataset includes following information: 
-- age : age of the participant
 - cycle_start : the starting date of the menstrual cycle
 - cycle_end : the ending date of the menstrual cycle
 - period_length : avarega menstrula period length (will be calculated based on the cycle_start and cyclye_end data of the participant)
 - painkiller_usage : the data indicating wheter the participant use painkiller during the menstrual period
-- study_hours_daily_M : the daily study duration of the participant during the menstrual cyclye period (hours)
-- study_hours_daily : the daily study duration of the participant outside the menstrual cycle period (hours)
+- study_hours_daily : the daily study duration of the participant (hours)
 - exam_period : the data indicating wheter is it the exam period or not
 - coffee_consumption : the data indicating wheter the participant consumes coffe during the menstrual cycle period.
 
 # Data Collection and Preprocessing 
 ## Data Collection:
-Participants will record their daily study hours, focus levels, coffee consumption, painkiller usage, and menstrual cycle dates through Google Forms. Data will be collected for at least one full menstrual cycle per participant (ideally 4–6 weeks). The exam period, coffe consumption and painkiller usage  information will also be recorded to ensure that the study focus is mostly related with the menstrual cycyle and no other factors. The age information is to verify the participant have the menstrual cycle or not to increase the reliance. 
+Participants will record their study hours, coffee consumption status, painkiller usage status and wheter it is exam period or not daily, through Google Forms. The cycle_start and cycle_end information will be collected via an menstrual cycle application called Beije, then the period_length will be calculated depending on these information. Data will be collected for at least one full menstrual cycle of the participant (ideally 4–6 weeks). The exam period, coffe consumption and painkiller usage  information will also be recorded to ensure that the study focus is mostly related with the menstrual cycyle and no other factors.
 
 ## Data Preprocessing: 
 - Data Cleaning: Handling missing or inconsistent data, such as blanks or extreme entries. Standardize date formats, and correct typos.
