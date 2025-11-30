@@ -35,30 +35,7 @@ Participants will record their study hours, coffee consumption status, painkille
 - Calculations and Convertions : Calculating average menstrual period lengt based on cycle_start and cycle_end. Converting boolean variables (painkiller_usage, exam_period, coffee_consumption) into numerical format (e.g., 0 = No, 1 = Yes).
 - Mergin Data: Combine all clean participant given data and calculated data into one SQL based database and create the dataset. 
 
-# Exploratory Data Analysis (EDA)
-## Methods Used:
-### Data Structure & Quality Checks
-- Data types, missing values, duplicates, and outlier detection
-- Summary statistics to assess distribution characteristics
-### Bivariate Analysis
-- Period vs. non-period boxplot comparisons
-- Correlation analysis (Pearson) across numerical features
-### Multivariate Analysis
-- Heatmap visualizing correlations
-- Grouped barplots (eg. exam period × period × study hours) 
-### Time-Series Analysis
-- Study hours over time
-- Visualization of period days across timeline
-- Cycle-day trend analysis
-### Distribution Comparison
-- Focus on period vs non-period variations
-- Group differences via boxplots and mean plots
-### Stats Preparation
-- Normality checks
-- Variance checks
-- Group mean differences
-   
-# Hypothesis Testing
+# Exploratory Data Analysis (EDA) and Hypothesis Testing
 This study investigates how menstrual cycle phases influence study focus and productivity among female students.
 The analysis is based on self-tracked daily study logs, menstrual cycle data from the Beije mobile application, and additional behavioral indicators (coffee consumption, painkiller usage, exam period).
 
@@ -73,5 +50,9 @@ This hypothesis is based on the assumption that hormonal fluctuations, menstrual
 ## Statistical Test Used
 Since the predictor variable (menstrual period status) is categorical (binary) and the outcome variable (daily study hours) is quantitative, a mean comparison test was required. Normality checks (Shapiro-Wilk) and variance tests (Levene) indicated non-normal distributions. Therefore, the non-parametric Mann–Whitney U test was selected.
 
+## Hypothesis Test Result
+Daily study hours were compared between menstrual period days and non-period days using the Mann–Whitney U test, selected due to violations of normality in both groups (Shapiro–Wilk p < 0.001). Although variance equality was satisfied (Levene test p > 0.05), the non-normal distribution required a non-parametric mean comparison test.
+The Mann–Whitney U test (one-sided, testing whether period days reduce study hours) indicated no statistically significant difference between the two groups (U = 2888, p = 0.451). The effect size (rank-biserial correlation = 0.0123) was extremely small, suggesting that menstrual period status does not meaningfully influence study duration.
+Overall, the statistical results do not support the hypothesis that menstrual period days significantly reduce study focus or productivity. Visual analyses (boxplots and time-series plots) similarly show overlapping distributions and no substantial decline during the menstrual phase.
 
 
