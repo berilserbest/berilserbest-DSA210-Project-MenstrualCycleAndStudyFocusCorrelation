@@ -35,8 +35,30 @@ Participants will record their study hours, coffee consumption status, painkille
 - Calculations and Convertions : Calculating average menstrual period lengt based on cycle_start and cycle_end. Converting boolean variables (painkiller_usage, exam_period, coffee_consumption) into numerical format (e.g., 0 = No, 1 = Yes).
 - Mergin Data: Combine all clean participant given data and calculated data into one SQL based database and create the dataset. 
 
-# Data Analysis
-## Exploratory Data Analysis (EDA) and Hypothesis Testing
+# Exploratory Data Analysis (EDA)
+## Methods Used:
+- Data Structure & Quality Checks
+-Data types, missing values, duplicates, and outlier detection
+-Summary statistics to assess distribution characteristics
+- Bivariate Analysis
+-Period vs. non-period boxplot comparisons
+-Correlation analysis (Pearson) across numerical features
+- Multivariate Analysis
+-Heatmap visualizing correlations
+-Grouped barplots (eg. exam period × period × study hours) 
+- Time-Series Analysis
+-Study hours over time
+-Visualization of period days across timeline
+-Cycle-day trend analysis
+- Distribution Comparison
+-Focus on period vs non-period variations
+-Group differences via boxplots and mean plots
+- Stats Preparation
+-Normality checks
+-Variance checks
+-Group mean differences
+   
+# Hypothesis Testing
 This study investigates how menstrual cycle phases influence study focus and productivity among female students in Turkey.
 The analysis is based on self-tracked daily study logs, menstrual cycle data from the Beije mobile application, and additional behavioral indicators (coffee consumption, painkiller usage, exam period).
 
