@@ -36,7 +36,9 @@ Participants will record their study hours, coffee consumption status, painkille
 - Mergin Data: Combine all clean participant given data and calculated data into one SQL based database and create the dataset. 
 
 # Data Analysis
-##Exploratory Data Analysis (EDA) and Hypothesis Testing
+## Exploratory Data Analysis (EDA) and Hypothesis Testing
+This study investigates how menstrual cycle phases influence study focus and productivity among female students in Turkey.
+The analysis is based on self-tracked daily study logs, menstrual cycle data from the Beije mobile application, and additional behavioral indicators (coffee consumption, painkiller usage, exam period).
 
 
 
