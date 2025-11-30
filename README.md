@@ -13,8 +13,8 @@ I am Beril Nur Serbest, a Computer Science and Engineering student in Sabancı U
 # Motivation 
 Menstrual cycle periods can effect physical activity levels, mood and cognitive performance due to hormonal fluctuations and physical pains which can influence the study habbits and focus of a person. Understanding the relation between menstrual cycle and stdy focus can help female strudents: 
 - Optimize productivity and improve study efficiency by taking hormonal fluctuations into consideration.
-- Schedule their academic tasks during high-focus phases to decrease the amount of time they spend working on the tasks
-- Contribute to data-driven insights on women’s cognitive performance in Turkey
+- Schedule their academic tasks during high-focus phases to decrease the amount of time they spend working on the tasks.
+- Contribute to data-driven insights on women’s cognitive performance.
 
 # Data Sources and Dataset Description
 This project relies on self-collected data from female students in Turkey. The Google Forms and Beije application used to colect the related data. The dataset includes following information: 
