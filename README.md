@@ -63,7 +63,7 @@ To better understand the relationship between menstrual cycle phases and study b
 - Painkiller Usage × Cycle Day × Study Hours: Painkiller usage served as a proxy for menstrual discomfort severity. Visualizations comparing users vs non-users across cycle days showed no strong differences in study hours, indicating that pain severity may not have significantly influenced study duration in this dataset.
 - Exam Period × Menstrual Status × Study Hours: A grouped visualization explored how exam stress interacts with menstrual status. Exam days influenced study hours more strongly than menstrual status, suggesting external academic factors may override physiological influences.
 
-#### Rolling Average Trend Analysis (3-Day Moving Average) 
+### Rolling Average Trend Analysis (3-Day Moving Average) 
 To better visualize underlying trends and reduce the noise caused by daily fluctuations, a 3-day moving average (rolling mean) was applied to the study hour time series. This smoothing technique highlighted general patterns more clearly and allowed for a more interpretable comparison between menstrual and non-menstrual periods. The rolling-average plots showed stable study performance across the menstrual cycle, further supporting the statistical test results.
 
 ## Interpretation of Visual Results
