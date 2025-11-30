@@ -70,6 +70,8 @@ Menstrual period days (is_period = 1) significantly reduce daily study duration.
 
 This hypothesis is based on the assumption that hormonal fluctuations, menstrual cramps, fatigue, and mood-related symptoms commonly experienced during menstruation may negatively impact cognitive focus and academic productivity.Therefore, it is reasonable to expect a decrease in study focus and study time during the menstrual period.
 
+## Statistical Test Used
+Since the predictor variable (menstrual period status) is categorical (binary) and the outcome variable (daily study hours) is quantitative, a mean comparison test was required. Normality checks (Shapiro-Wilk) and variance tests (Levene) indicated non-normal distributions. Therefore, the non-parametric Mann–Whitney U test was selected.
 
 
 
