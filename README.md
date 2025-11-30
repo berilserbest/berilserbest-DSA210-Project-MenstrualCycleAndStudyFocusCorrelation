@@ -41,9 +41,9 @@ The analysis is based on self-tracked daily study logs, menstrual cycle data fro
 
 We evaluated the following core hypothesis:
 - Null Hypothesis (H₀):
-Menstrual period days (is_period = 1) do not significantly reduce daily study duration.
-- Alternative Hypothesis (H₁):
 Menstrual period days (is_period = 1) significantly reduce daily study duration.
+- Alternative Hypothesis (H₁):
+Menstrual period days (is_period = 1) do nnot significantly reduce daily study duration.
 
 This hypothesis is based on the assumption that hormonal fluctuations, menstrual cramps, fatigue, and mood-related symptoms commonly experienced during menstruation may negatively impact cognitive focus and academic productivity.Therefore, it is reasonable to expect a decrease in study focus and study time during the menstrual period.
 
