@@ -37,8 +37,8 @@ Participants will record their study hours, coffee consumption status, painkille
 
 # Exploratory Data Analysis (EDA)
 ## Methods Used:
-- Data Structure & Quality Checks
--- Data types, missing values, duplicates, and outlier detection
+### Data Structure & Quality Checks
+ Data types, missing values, duplicates, and outlier detection
 -Summary statistics to assess distribution characteristics
 - Bivariate Analysis
 -Period vs. non-period boxplot comparisons
