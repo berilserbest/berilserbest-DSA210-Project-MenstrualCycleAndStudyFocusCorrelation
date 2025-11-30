@@ -17,7 +17,7 @@ Menstrual cycle periods can effect physical activity levels, mood and cognitive 
 - Contribute to data-driven insights on women’s cognitive performance in Turkey
 
 # Data Sources and Dataset Description
-This project relies on self-collected data from female students in Turkey. The Google Forms used to colect the related data. The dataset includes following information: 
+This project relies on self-collected data from female students in Turkey. The Google Forms and Beije application used to colect the related data. The dataset includes following information: 
 - cycle_start : the starting date of the menstrual cycle
 - cycle_end : the ending date of the menstrual cycle
 - period_length : avarega menstrula period length (will be calculated based on the cycle_start and cyclye_end data of the participant)
@@ -40,5 +40,13 @@ Participants will record their study hours, coffee consumption status, painkille
 This study investigates how menstrual cycle phases influence study focus and productivity among female students in Turkey.
 The analysis is based on self-tracked daily study logs, menstrual cycle data from the Beije mobile application, and additional behavioral indicators (coffee consumption, painkiller usage, exam period).
 
+We evaluated the following core hypothesis:
+
+Null Hypothesis (H₀):
+Menstrual period days (is_period = 1) do not significantly reduce daily study duration.
+Alternative Hypothesis (H₁):
+Menstrual period days (is_period = 1) significantly reduce daily study duration.
+
+This hypothesis is based on the assumption that hormonal fluctuations, menstrual cramps, fatigue, and mood-related symptoms commonly experienced during menstruation may negatively impact cognitive focus and academic productivity.
 
 
