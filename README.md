@@ -55,4 +55,16 @@ Daily study hours were compared between menstrual period days and non-period day
 The Mann–Whitney U test (one-sided, testing whether period days reduce study hours) indicated no statistically significant difference between the two groups (U = 2888, p = 0.451). The effect size (rank-biserial correlation = 0.0123) was extremely small, suggesting that menstrual period status does not meaningfully influence study duration.
 Overall, the statistical results do not support the hypothesis that menstrual period days significantly reduce study focus or productivity. Visual analyses (boxplots and time-series plots) similarly show overlapping distributions and no substantial decline during the menstrual phase.
 
+## Visualization Summary
+To better understand the relationship between menstrual cycle phases and study behavior, several exploratory data visualizations were generated. These visualizations supported the statistical analysis and helped reveal behavioral patterns across menstrual and non-menstrual days.
+- Study Hours: Period vs Non-Period (Boxplot): This boxplot provided an initial comparison of the distribution of daily study hours across menstrual and non-menstrual days. The overlapping distributions and similar medians visually aligned with the Mann–Whitney U results, suggesting no major decline during menstruation.
+- Study Hours Over Time (Time-Series Plot): Daily study hours were plotted chronologically to examine temporal trends and possible dips aligned with menstrual days. No consistent downward shift overlapping period days was observed, reinforcing the lack of a significant effect.
+- Study Hours by Cycle Day (Line Plot): Study hours were visualized day-by-day during the menstrual phase (cycle_day = 1–8). This plot helped inspect whether early menstrual days (typically Days 1–3) were associated with lower study productivity. The trend remained relatively stable, with no notable decline.
+- Painkiller Usage × Cycle Day × Study Hours: Painkiller usage served as a proxy for menstrual discomfort severity. Visualizations comparing users vs non-users across cycle days showed no strong differences in study hours, indicating that pain severity may not have significantly influenced study duration in this dataset.
+- Exam Period × Menstrual Status × Study Hours: A grouped visualization explored how exam stress interacts with menstrual status. Exam days influenced study hours more strongly than menstrual status, suggesting external academic factors may override physiological influences.
+
+## Interpretation of Visual Results
+Although the hypothesis assumed that menstrual period days would reduce study hours due to hormonal and physiological effects, the visualizations did not indicate a strong downward trend. Study hour patterns remained relatively stable across cycle days, and fluctuations appeared more related to exam periods rather than menstrual status. Painkiller usage also did not show meaningful variation in study duration.
+These observations supported the statistical finding that menstrual period status did not significantly impact study productivity in this dataset.
+
 
