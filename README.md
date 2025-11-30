@@ -35,8 +35,8 @@ Participants will record their study hours, coffee consumption status, painkille
 - Calculations and Convertions : Calculating average menstrual period lengt based on cycle_start and cycle_end. Converting boolean variables (painkiller_usage, exam_period, coffee_consumption) into numerical format (e.g., 0 = No, 1 = Yes).
 - Mergin Data: Combine all clean participant given data and calculated data into one SQL based database and create the dataset. 
 
-#Data Analysis
-#Exploratory Data Analysis (EDA) and Hypothesis Testing
+# Data Analysis
+##Exploratory Data Analysis (EDA) and Hypothesis Testing
 
 
 
