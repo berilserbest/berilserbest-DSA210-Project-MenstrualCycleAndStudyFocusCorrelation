@@ -5,6 +5,7 @@
 - [Motivation](#motivation)
 - [Data Sources and Dataset Description](#data-sources-and-dataset-description)
 - [Data Collection and Preprocessing](#data-collection-and-preprocessing)
+- [Data Analysis](#data-analysis)
 
 # Project Overview
 I am Beril Nur Serbest, a Computer Science and Engineering student in Sabancı University. I am making  this project for DSA210 couse. This study focuses on examining how different phases of menstrual cycle influence study focus among female students in Turkey. By analyzing self tracked data collected with Google Forms, this study aims to observe cognitive focus and learning efficiency patterns accross different menstrual phases.
@@ -33,5 +34,9 @@ Participants will record their study hours, coffee consumption status, painkille
 - Data Cleaning: Handling missing or inconsistent data, such as blanks or extreme entries. Standardize date formats, and correct typos.
 - Calculations and Convertions : Calculating average menstrual period lengt based on cycle_start and cycle_end. Converting boolean variables (painkiller_usage, exam_period, coffee_consumption) into numerical format (e.g., 0 = No, 1 = Yes).
 - Mergin Data: Combine all clean participant given data and calculated data into one SQL based database and create the dataset. 
+
+#Data Analysis
+#Exploratory Data Analysis (EDA) and Hypothesis Testing
+
 
 
