@@ -38,25 +38,25 @@ Participants will record their study hours, coffee consumption status, painkille
 # Exploratory Data Analysis (EDA)
 ## Methods Used:
 ### Data Structure & Quality Checks
- Data types, missing values, duplicates, and outlier detection
--Summary statistics to assess distribution characteristics
-- Bivariate Analysis
--Period vs. non-period boxplot comparisons
--Correlation analysis (Pearson) across numerical features
-- Multivariate Analysis
--Heatmap visualizing correlations
--Grouped barplots (eg. exam period × period × study hours) 
-- Time-Series Analysis
--Study hours over time
--Visualization of period days across timeline
--Cycle-day trend analysis
-- Distribution Comparison
--Focus on period vs non-period variations
--Group differences via boxplots and mean plots
-- Stats Preparation
--Normality checks
--Variance checks
--Group mean differences
+- Data types, missing values, duplicates, and outlier detection
+- Summary statistics to assess distribution characteristics
+### Bivariate Analysis
+- Period vs. non-period boxplot comparisons
+- Correlation analysis (Pearson) across numerical features
+### Multivariate Analysis
+- Heatmap visualizing correlations
+- Grouped barplots (eg. exam period × period × study hours) 
+### Time-Series Analysis
+- Study hours over time
+- Visualization of period days across timeline
+- Cycle-day trend analysis
+### Distribution Comparison
+- Focus on period vs non-period variations
+- Group differences via boxplots and mean plots
+### Stats Preparation
+- Normality checks
+- Variance checks
+- Group mean differences
    
 # Hypothesis Testing
 This study investigates how menstrual cycle phases influence study focus and productivity among female students in Turkey.
