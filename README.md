@@ -59,7 +59,7 @@ Participants will record their study hours, coffee consumption status, painkille
 - Group mean differences
    
 # Hypothesis Testing
-This study investigates how menstrual cycle phases influence study focus and productivity among female students in Turkey.
+This study investigates how menstrual cycle phases influence study focus and productivity among female students.
 The analysis is based on self-tracked daily study logs, menstrual cycle data from the Beije mobile application, and additional behavioral indicators (coffee consumption, painkiller usage, exam period).
 
 We evaluated the following core hypothesis:
