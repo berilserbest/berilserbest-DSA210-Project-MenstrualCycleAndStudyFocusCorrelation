@@ -5,7 +5,7 @@
 - [Motivation](#motivation)
 - [Data Sources and Dataset Description](#data-sources-and-dataset-description)
 - [Data Collection and Preprocessing](#data-collection-and-preprocessing)
-- [Exploratory Data Analysis (EDA) and Hypothesis Testing](#exploratory-data-analysis-(eda)-and-hypothesis-testing)
+- [Exploratory Data Analysis (EDA) and Hypothesis Testing](#exploratory-data-analysis-(EDA)-and-hypothesis-testing)
 - [Machine Learning Methods and Analysis](#machine-learning-methods-and-analysis)
 
 # Project Overview
