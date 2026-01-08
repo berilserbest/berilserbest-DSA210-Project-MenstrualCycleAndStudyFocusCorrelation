@@ -18,7 +18,7 @@ Menstrual cycle periods can effect physical activity levels, mood and cognitive 
 - Contribute to data-driven insights on women’s cognitive performance.
 
 # Data Sources and Dataset Description
-This project relies on self-collected data from female students in Turkey. The Google Forms and Beije application used to colect the related data. The dataset includes following information: 
+This project relies on self-collected data from myself as a female students . The Google Forms and Beije application used to colect the related data. The dataset includes following information: 
 - cycle_start : the starting date of the menstrual cycle
 - cycle_end : the ending date of the menstrual cycle
 - period_length : avarega menstrula period length (will be calculated based on the cycle_start and cyclye_end data of the participant)
