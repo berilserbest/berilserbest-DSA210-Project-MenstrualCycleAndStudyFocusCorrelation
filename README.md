@@ -100,6 +100,7 @@ Across all models, predictive performance was limited, which is expected given t
 - **Exam period status** emerged as the most influential predictor, accounting for over 80% of the model’s decision-making process in tree-based models.
 - **Menstrual period status** had minimal predictive importance, indicating a negligible effect on daily study duration.
 - Machine learning results were fully consistent with earlier statistical hypothesis testing and exploratory analysis.
+
 These findings suggest that external academic pressures outweigh physiological menstrual cycle effects in determining study behavior within this dataset.
   
 
