@@ -71,7 +71,7 @@ To better visualize underlying trends and reduce the noise caused by daily fluct
 Although the hypothesis assumed that menstrual period days would reduce study hours due to hormonal and physiological effects, the visualizations did not indicate a strong downward trend. Study hour patterns remained relatively stable across cycle days, and fluctuations appeared more related to exam periods rather than menstrual status. Painkiller usage also did not show meaningful variation in study duration.
 These observations supported the statistical finding that menstrual period status did not significantly impact study productivity in this dataset.
 
-# Machine Learnin Methods and Analysis
+# Machine Learning Methods and Analysis
 To examine and strengthen the results obtained from hypothesis testing and visualizations, supervised machine learning methods were also applied to evaluate whether menstrual cycle status can predict daily study duration among female students.
 
 ## Machine Learning Task Definition
