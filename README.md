@@ -84,9 +84,9 @@ Given the temporal nature of the dataset, preserving chronological order was ess
 To avoid data leakage, a time-aware train–test split was used. The dataset was divided chronologically into 80% training data and 20% testing data, without shuffling. This approach simulates real-world prediction by training models on past observations and evaluating them on future data.
 ### Models Applied
 The following supervised learning models were implemented and compared to get the most accurate result:
-1. **Multiple Linear Regression** Used as an interpretable baseline model to examine the direction and magnitude of each feature’s effect on study duration.
-2. **Decision Tree Regressor** Applied to capture potential non-linear relationships between menstrual cycle variables and study behavior.
-3. **Random Forest Regressor** Used as an ensemble model to improve prediction stability and to obtain reliable feature importance estimates.
+1. **Multiple Linear Regression** used as an interpretable baseline model to examine the direction and magnitude of each feature’s effect on study duration.
+2. **Decision Tree Regressor** applied to capture potential non-linear relationships between menstrual cycle variables and study behavior.
+3. **Random Forest Regressor** used as an ensemble model to improve prediction stability and to obtain reliable feature importance estimates.
 
 ### Evaluation Metrics
 Model performance was evaluated using standard regression metrics:
@@ -97,6 +97,11 @@ These metrics were computed on the test set for all models to ensure fair compar
 
 ## Machine Learning Analysis Results
 Across all models, predictive performance was limited, which is expected given the behavioral and highly variable nature of daily study habits. However, feature importance analysis revealed consistent patterns:
+- **Exam period status** emerged as the most influential predictor, accounting for over 80% of the model’s decision-making process in tree-based models.
+- **Menstrual period status** had minimal predictive importance, indicating a negligible effect on daily study duration.
+- Machine learning results were fully consistent with earlier statistical hypothesis testing and exploratory analysis.
+These findings suggest that external academic pressures outweigh physiological menstrual cycle effects in determining study behavior within this dataset.
+  
 
 
 
