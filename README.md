@@ -84,9 +84,9 @@ Given the temporal nature of the dataset, preserving chronological order was ess
 To avoid data leakage, a time-aware train–test split was used. The dataset was divided chronologically into 80% training data and 20% testing data, without shuffling. This approach simulates real-world prediction by training models on past observations and evaluating them on future data.
 ### Models Applied
 The following supervised learning models were implemented and compared to get the most accurate result:
-#### 1.) Multiple Linear Regression: Used as an interpretable baseline model to examine the direction and magnitude of each feature’s effect on study duration.
-#### 2.) Decision Tree Regressor: Applied to capture potential non-linear relationships between menstrual cycle variables and study behavior.
-#### 3.) Random Forest Regressor: Used as an ensemble model to improve prediction stability and to obtain reliable feature importance estimates.
+- 1.) **Multiple Linear Regression** Used as an interpretable baseline model to examine the direction and magnitude of each feature’s effect on study duration.
+- 2.) **Decision Tree Regressor** Applied to capture potential non-linear relationships between menstrual cycle variables and study behavior.
+- 3.) **Random Forest Regressor** Used as an ensemble model to improve prediction stability and to obtain reliable feature importance estimates.
 
 ### Evaluation Metrics
 Model performance was evaluated using standard regression metrics:
