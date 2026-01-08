@@ -6,6 +6,7 @@
 - [Data Sources and Dataset Description](#data-sources-and-dataset-description)
 - [Data Collection and Preprocessing](#data-collection-and-preprocessing)
 - [Exploratory Data Analysis (EDA) and Hypothesis Testing](#exploratory-data-analysis-(eda)-and-hypothesis-testing)
+- [Machine Learning Methods and Analysis](#machine-learning-methods-and-analysis)
 
 # Project Overview
 I am Beril Nur Serbest, a Computer Science and Engineering student in Sabancı University. I am making  this project for DSA210 couse. This study focuses on examining how different phases of menstrual cycle influence study focus among female students. By analyzing self tracked data collected with Google Forms and Beije application, this study aims to observe cognitive focus and learning efficiency patterns accross different menstrual phases.
@@ -69,5 +70,33 @@ To better visualize underlying trends and reduce the noise caused by daily fluct
 ## Interpretation of Visual Results
 Although the hypothesis assumed that menstrual period days would reduce study hours due to hormonal and physiological effects, the visualizations did not indicate a strong downward trend. Study hour patterns remained relatively stable across cycle days, and fluctuations appeared more related to exam periods rather than menstrual status. Painkiller usage also did not show meaningful variation in study duration.
 These observations supported the statistical finding that menstrual period status did not significantly impact study productivity in this dataset.
+
+# Machine Learnin Methods and Analysis
+To examine and strengthen the results obtained from hypothesis testing and visualizations, supervised machine learning methods were also applied to evaluate whether menstrual cycle status can predict daily study duration among female students.
+
+## Machine Learning Task Definition
+The machine learning task was formulated as a supervised regression problem, where the target variable is daily study duration (in hours), and the input features consist of menstrual cycle indicators and behavioral factors.
+- Target Variable: study_hours_daily
+- Feature Variables: is_period, exam_period, coffee_consumption, painkiller_usage
+Given the temporal nature of the dataset, preserving chronological order was essential to ensure realistic model evaluation.
+
+## Train–Test Strategy
+To avoid data leakage, a time-aware train–test split was used. The dataset was divided chronologically into 80% training data and 20% testing data, without shuffling. This approach simulates real-world prediction by training models on past observations and evaluating them on future data.
+### Models Applied
+The following supervised learning models were implemented and compared to get the most accurate result:
+- 1.) Multiple Linear Regression: Used as an interpretable baseline model to examine the direction and magnitude of each feature’s effect on study duration.
+- 2.) Decision Tree Regressor: Applied to capture potential non-linear relationships between menstrual cycle variables and study behavior.
+- 3.) Random Forest Regressor: Used as an ensemble model to improve prediction stability and to obtain reliable feature importance estimates.
+
+### Evaluation Metrics
+Model performance was evaluated using standard regression metrics:
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+These metrics were computed on the test set for all models to ensure fair comparison.
+
+## Machine Learning Analysis Results
+Across all models, predictive performance was limited, which is expected given the behavioral and highly variable nature of daily study habits. However, feature importance analysis revealed consistent patterns:
+
 
 
