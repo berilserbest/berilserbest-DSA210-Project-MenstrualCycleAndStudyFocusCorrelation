@@ -1,4 +1,4 @@
-# DSA210 Project - The Relationship Between Menstrual Cycle Phases and Study Focus in Female Students
+# DSA210 Project - The Relationship Between Menstrual Cycle Phases and Study Focus of Female Students
 
 ## Table of Contents
 - [Project Overview](#project-overview)
