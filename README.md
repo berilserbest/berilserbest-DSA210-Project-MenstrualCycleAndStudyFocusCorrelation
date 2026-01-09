@@ -41,7 +41,8 @@ This study investigates how menstrual cycle phases influence study focus and pro
 The analysis is based on self-tracked daily study logs, menstrual cycle data from the Beije mobile application, and additional behavioral indicators (coffee consumption, painkiller usage, exam period).
 
 We analyzed the following 3 hypothesis tests:
-**HYPOTESIS TEST 1 : Does Daily Study Duration Differ Between Menstrual and Non-Menstrual Days?
+
+**HYPOTESIS TEST 1 :** Does Daily Study Duration Differ Between Menstrual and Non-Menstrual Days?
 - Null Hypothesis (H₀):
 Menstrual period days (is_period = 1) significantly reduce daily study duration.
 - Alternative Hypothesis (H₁):
@@ -49,7 +50,7 @@ Menstrual period days (is_period = 1) do nnot significantly reduce daily study d
 
 This hypothesis is based on the assumption that hormonal fluctuations, menstrual cramps, fatigue, and mood-related symptoms commonly experienced during menstruation may negatively impact cognitive focus and academic productivity.Therefore, it is reasonable to expect a decrease in study focus and study time during the menstrual period.
 
-**HYPOTHESIS TEST 2 : Do Study Hours Decrease on Days with Painkiller Usage?
+**HYPOTHESIS TEST 2 :** Do Study Hours Decrease on Days with Painkiller Usage?
 - Null Hypothesis (H₀):
 Daily study duration does not differ between days with painkiller usage (painkiller_usage = 1) and days without painkiller usage (painkiller_usage = 0).
 - Alternative Hypothesis (H₁):
@@ -57,7 +58,7 @@ Daily study duration is lower on days with painkiller usage (painkiller_usage = 
 
 This hypothesis assumes that painkiller usage serves as a proxy for increased menstrual pain severity, which may negatively impact cognitive focus and reduce the amount of time spent studying.
 
-**HYPOTHESIS TEST 3 : Does Exam Period Masks Menstrual Effect?
+**HYPOTHESIS TEST 3 :** Does Exam Period Masks Menstrual Effect?
 - Null Hypothesis (H₀):
 Menstrual period status does not affect daily study duration during either exam periods or non-exam periods.
 - Alternative Hypothesis (H₁):
