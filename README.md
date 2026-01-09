@@ -40,13 +40,31 @@ Participants will record their study hours, coffee consumption status, painkille
 This study investigates how menstrual cycle phases influence study focus and productivity among female students.
 The analysis is based on self-tracked daily study logs, menstrual cycle data from the Beije mobile application, and additional behavioral indicators (coffee consumption, painkiller usage, exam period).
 
-We evaluated the following core hypothesis:
+We analyzed the following 3 hypothesis tests:
+**HYPOTESIS TEST 1 : Does Daily Study Duration Differ Between Menstrual and Non-Menstrual Days?
 - Null Hypothesis (H₀):
 Menstrual period days (is_period = 1) significantly reduce daily study duration.
 - Alternative Hypothesis (H₁):
 Menstrual period days (is_period = 1) do nnot significantly reduce daily study duration.
 
 This hypothesis is based on the assumption that hormonal fluctuations, menstrual cramps, fatigue, and mood-related symptoms commonly experienced during menstruation may negatively impact cognitive focus and academic productivity.Therefore, it is reasonable to expect a decrease in study focus and study time during the menstrual period.
+
+**HYPOTHESIS TEST 2 : Do Study Hours Decrease on Days with Painkiller Usage?
+- Null Hypothesis (H₀):
+Daily study duration does not differ between days with painkiller usage (painkiller_usage = 1) and days without painkiller usage (painkiller_usage = 0).
+- Alternative Hypothesis (H₁):
+Daily study duration is lower on days with painkiller usage (painkiller_usage = 1) compared to days without painkiller usage (painkiller_usage = 0).
+
+This hypothesis assumes that painkiller usage serves as a proxy for increased menstrual pain severity, which may negatively impact cognitive focus and reduce the amount of time spent studying.
+
+**HYPOTHESIS TEST 3 : Does Exam Period Masks Menstrual Effect?
+- Null Hypothesis (H₀):
+Menstrual period status does not affect daily study duration during either exam periods or non-exam periods.
+- Alternative Hypothesis (H₁):
+The effect of menstrual period status on daily study duration differs between exam and non-exam periods, such that menstrual-related effects are more observable during non-exam periods.
+
+This hypothesis is based on the assumption that exam periods introduce strong external academic pressure that may override or mask physiological and hormonal influences associated with the menstrual cycle.
+
 
 ## Statistical Test Used
 Since the predictor variable (menstrual period status) is categorical (binary) and the outcome variable (daily study hours) is quantitative, a mean comparison test was required. Normality checks (Shapiro-Wilk) and variance tests (Levene) indicated non-normal distributions. Therefore, the non-parametric Mann–Whitney U test was selected.
